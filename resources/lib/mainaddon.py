@@ -25,7 +25,7 @@ def get_playable_podcast(soup):
                 'title': title,
                 'thumbnail': "https://btrtoday.sfo2.digitaloceanspaces.com/uploads/og_RadioDispatch2017.png",
         }
-        subjects.append(item) 
+        subjects.append(item)
     return subjects
 def compile_playable_podcast(playable_podcast):
     items = []
